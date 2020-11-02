@@ -1,0 +1,28 @@
+body{
+    background-color: yellow;
+}
+table{
+    border: 1px solid #0099cc;
+    border-bottom: 2px solid #0099cc;
+    border-collapse: collapse;
+    text-align: center;  
+  }
+th, td {
+    padding: 15px;
+}
+table#t01 th {
+    background-color: black;
+    color: white;
+  }
+table#t01 tr:nth-child(odd) {
+    background-color: #f2f2f2;
+   }
+.t02 {
+    border: 1px solid #0099cc;
+    border-top: 2px solid #0099cc;
+    border-bottom: 2px solid #0099cc;
+}
+div {
+    margin-left: 500px;
+    margin-top: 70px;
+}
